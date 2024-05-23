@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalho</title>
+    <style>
+        body {
+            background-color: rgb(227, 237, 255);
+        }
+
+        #TopBox {
+            border: 5px solid rgb(227, 237, 255);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #BottomBox {
+            border: 5px solid rgb(227, 237, 255);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: normal;
+        }
+        #centralizar{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .coluna {
+            border: 5px solid rgb(227, 237, 255);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: normal;
+        }
+
+        .espaco {
+            margin-bottom: 20px;
+        }
+
+        #circle {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background-color: rgb(123, 72, 153);
+        }
+    .botaobox{
+        display: flex;
+        flex-direction: row;
+    }
+        .botao {
+            width: 100px;
+            height: 25px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(81, 0, 97);
+            border-radius: 5px;
+            color: rgb(227, 237, 255);
+        }
+        #espaco{
+            margin-right: 30px;
+        }
+
+        #es1 {
+            width: 200px;
+            height: 200px;
+            margin-right: 20px;
+            background-color: rgb(123, 72, 153);
+            display: inline-block;
+            border-radius: 5%;
+        }
+
+        #es2 {
+            width: 200px;
+            height: 150px;
+            margin-right: 20px;
+            background-color: rgb(101, 66, 122);
+            display: inline-block;
+            border-radius: 5%;
+        }
+
+        #es3 {
+            width: 150px;
+            height: 200px;
+            margin-right: 20px;
+            background-color: rgb(82, 47, 102);
+            display: inline-block;
+            border-radius: 5%;
+        }
+
+        #es4 {
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            background-color: rgb(58, 24, 78);
+            display: inline-block;
+            border-radius: 5%;
+        }
+
+        #es5 {
+            width: 150px;
+            height: 375px;
+            background-color: rgb(43, 12, 61);
+            display: inline-block;
+            border-radius: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="TopBox">
+        <div id="circle"></div>
+        <div>
+            <div id="centralizar">
+            <h1>Sophia Leme</h1>
+            <p>estudente</p>
+            </div>
+            <div class="botaobox">
+
+                <div class="botao" id="espaco">
+                    <p>botão 1</p>
+                </div>
+                <div class="botao">
+                    <p>botão 2</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="BottomBox">
+        <div class="coluna">
+            <div id="es1" class="espaco"></div>
+            <div id="es2"></div>
+        </div>
+        <div class="coluna">
+            <div id="es3" class="espaco"></div>
+            <div id="es4"></div>
+        </div>
+        <div class="coluna">
+            <div id="es5"></div>
+        </div>
+    </div>
+</body>
+
+</html>
